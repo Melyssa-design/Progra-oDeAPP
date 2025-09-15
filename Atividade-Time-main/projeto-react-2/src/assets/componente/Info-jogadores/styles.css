@@ -1,0 +1,98 @@
+/* src\assets\componente\Info-cliente\styles.css */
+/* ===========================
+   Estilo inspirado no site do Bahia
+   =========================== */
+
+   
+.info-jogadores {
+  max-width: 400px;
+  margin: 40px auto;
+  background: linear-gradient(135deg, #002c5f 0%, #c8102e 100%);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 18px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+  outline: none;
+  color: #002c5f;
+}
+
+input::placeholder {
+  color: #666;
+}
+
+button {
+  width: 100%;
+  background-color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #c8102e;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c8102e;
+  color: white;
+}
+
+ul {
+  margin-top: 25px;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+  font-size: 18px;
+  border-left: 4px solid #fff;
+  padding-left: 10px;
+}
+
